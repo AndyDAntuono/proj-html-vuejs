@@ -70,4 +70,4 @@ Presentazione dei progetti
 - aggiungo la cartella img nella cartella assets;
 - continuo a modificare AppHeader.vue;
     - aggiungo nel file index.html il link che mi permette di usare le icone da Fontawesome;
-- 
+- pklgkkbgioò
