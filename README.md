@@ -68,3 +68,6 @@ Presentazione dei progetti
 - imposto un impaginazione preliminare per AppMain.vue;
 - imposto un impaginazione preliminare per AppFooter.vue;
 - aggiungo la cartella img nella cartella assets;
+- continuo a modificare AppHeader.vue;
+    - aggiungo nel file index.html il link che mi permette di usare le icone da Fontawesome;
+- 
