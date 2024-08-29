@@ -64,3 +64,4 @@ Presentazione dei progetti
 
 - Come rischiesto dalla consegna eseguo per prima cosa lo scaffolding per ottenere la struttura base del progetto;
 - instalo sia sass che boostrap, in modo tale quante più opzioni disponibili per "decorare" l'intera impaginazione del progetto;
+- modifico la strutture base di vue+vite per avvicinarmi alle rischiesta dell'immagine di mockup, iniziando dalla sezione header;
