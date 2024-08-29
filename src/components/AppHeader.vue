@@ -4,7 +4,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <div class="header-navbar">
+                    <div class="header-navbar mb-2">
                         <!--per il momento inserisco un impaginazione generale per verificare se l'output generale del progetto corrisponde all'impaginazione che sto impostando-->
                         <ul class="d-flex flex-row list-unstyled">
                             <li class="me-2">Voce 1</li>
@@ -17,5 +17,8 @@
         </div>
     </header>
 </template>
-<style lang="">
+<style lang="scss">
+    .header-navbar {
+        background-color: red;
+    }
 </style>

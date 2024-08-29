@@ -17,4 +17,8 @@
         </div>
     </footer>
 </template>
-<style lang=""></style>
+<style lang="scss">
+    .footer-navbar {
+        background-color: yellow;
+    }
+</style>
