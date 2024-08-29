@@ -67,3 +67,4 @@ Presentazione dei progetti
 - modifico la strutture base di vue+vite per avvicinarmi alle rischiesta dell'immagine di mockup, iniziando dalla sezione header;
 - imposto un impaginazione preliminare per AppMain.vue;
 - imposto un impaginazione preliminare per AppFooter.vue;
+- aggiungo la cartella img nella cartella assets;

@@ -5,12 +5,23 @@
             <div class="row">
                 <div class="col-12">
                     <div class="header-navbar mb-2">
-                        <!--per il momento inserisco un impaginazione generale per verificare se l'output generale del progetto corrisponde all'impaginazione che sto impostando-->
-                        <ul class="d-flex flex-row list-unstyled">
-                            <li class="me-2">Voce 1</li>
-                            <li class="me-2">Voce 3</li>
-                            <li class="me-2">Voce 4</li>
-                        </ul>
+                        <div class="container-fluid d-flex align-items-center w-100">
+                            <div class="logo bg-white w-20 me-2">
+                                <img src="../assets/img/avada-marketing-logo.png" alt="avada-marketing-logo.png">
+                            </div>
+                            <div class="bg-white w-80">
+                                <ul class="d-flex justify-content-between flex-row list-unstyled">
+                                    <li class="nav-item">Home</li>
+                                    <li class="nav-item">Services</li>
+                                    <li class="nav-item">Why us</li>
+                                    <li class="nav-item">Case-studies</li>
+                                    <li class="nav-item">about</li>
+                                    <li class="nav-item">Blog</li>
+                                    <li class="nav-item">7</li>
+                                    <li class="nav-item">8</li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
