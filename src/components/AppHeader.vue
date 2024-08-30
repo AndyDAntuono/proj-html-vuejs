@@ -38,7 +38,7 @@
                             <span><i class="fa-solid fa-phone me-2"></i></span>
                             <span>(555) 802-1234</span>
                         </div>
-                        <a class="nav-link" href="#">Free Quote</a>
+                        <a class="quotes rounded" href="#">Free Quote</a>
                       </div>
                     <!--
                     <div class="header-navbar mb-2">
@@ -70,70 +70,78 @@
     </header>
 </template>
 <style lang="scss">
-.navbar {
-    overflow: hidden;
-    background-color: #ffffff;
-  }
-  
-  .navbar a {
-    float: left;
-    font-size: 16px;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
-  .dropdown {
-    float: left;
-    overflow: hidden;
-  }
-  
-  .dropdown .dropbtn {
-    font-size: 16px;  
-    border: none;
-    outline: none;
-    color: rgb(0, 0, 0);
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-  }
-  
-  .navbar .nav-link:hover, .dropdown:hover .dropbtn {
-    color: #f86011;
-    border-bottom: 1px solid #f86011;
+    .navbar {
+        overflow: hidden;
+        background-color: #ffffff;
+    }
+    
+    .navbar a {
+      float: left;
+      font-size: 16px;
+      color: rgb(0, 0, 0);
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
 
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #ffffff;
-    min-width: 160px;
-    z-index: 1;
-  }
-  
-  .dropdown-content a {
-    float: none;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
-  
-  .dropdown-content a:hover {
-    background-color: #ddd;
-  }
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
+    .dropdown {
+      float: left;
+      overflow: hidden;
+    }
 
-  .fa-phone {
-    color: #f86011;
-  }
+    .dropdown .dropbtn {
+      font-size: 16px;  
+      border: none;
+      outline: none;
+      color: rgb(0, 0, 0);
+      padding: 14px 16px;
+      background-color: inherit;
+      font-family: inherit;
+      margin: 0;
+    }
+
+    .navbar .nav-link:hover, .dropdown:hover .dropbtn {
+      color: #f86011;
+      border-bottom: 1px solid #f86011;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #ffffff;
+      min-width: 160px;
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      float: none;
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+
+    .dropdown-content a:hover {
+      background-color: #ddd;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    .fa-phone {
+      color: #f86011;
+    }
+
+    .quotes:link {
+        background-color: #f8ac83;
+        color: #f86011;
+     }
+
+    .quotes:hover {
+        background-color: #f86011;
+        color: #ffffff;
+    }
 /*
     .header-navbar {
         background-color: red;
