@@ -1,17 +1,13 @@
 <script></script>
 <template>
-    <!--per il momento inserisco un impaginazione generica per verificare se l'output generale del progetto corrisponde all'impaginazione che sto impostando-->
     <footer>
         <div class="container">
             <div class="row">
-                <div class="col-12">
-                    <div class="footer-navbar">
-                        <ul class="d-flex flex-row list-unstyled justify-content-end">
-                            <li class="me-2">Voce 1</li>
-                            <li class="me-2">Voce 3</li>
-                            <li class="me-2">Voce 4</li>
-                        </ul>
-                    </div>
+                <div class="footer-navbar d-flex">
+                    <div class="fn_col-45"></div>
+                    <div class="fn_col-55"></div>
+                    <div class="fn_col-55"></div>
+                    <div class="fn_col-55"></div>
                 </div>
             </div>
         </div>
@@ -20,5 +16,19 @@
 <style lang="scss">
     .footer-navbar {
         background-color: yellow;
+        width: 100%;
+        height: 500px; /*l'altezza la inserisco temporaneamente solo per impostare gli spazi*/
+    };
+    .fn_col-45 {
+        width: 45%;
+        background-color: pink;
+        height: 500px;
+        margin-right: 10px;
+    };
+    .fn_col-55 {
+        width: calc(55% / 3);
+        background-color: rgb(255, 33, 70);
+        height: 500px;
+        margin-right: 10px;
     }
 </style>

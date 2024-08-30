@@ -71,3 +71,5 @@ Presentazione dei progetti
 - continuo a modificare AppHeader.vue;
     - aggiungo nel file index.html il link che mi permette di usare le icone da Fontawesome;
     - continuo a modficare la barra di navigazione di AppHeader, ma non risco ad impostare i colori come si deve, forse a causa di una sorta interferenza da parte delle classi di boostrap;
+- procedo ad impaginare AppFooter.vue:
+    - dal momento che in AppHeader non sono attualmente soddisfatto dell'impaginazione, in AppFooter voglio impostare delle classi css personalizzaten nel tentativo di ottenere un risultato estetico migliore;
