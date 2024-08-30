@@ -70,4 +70,4 @@ Presentazione dei progetti
 - aggiungo la cartella img nella cartella assets;
 - continuo a modificare AppHeader.vue;
     - aggiungo nel file index.html il link che mi permette di usare le icone da Fontawesome;
-- pklgkkbgioò
+    - continuo a modficare la barra di navigazione di AppHeader, ma non risco ad impostare i colori come si deve, forse a causa di una sorta interferenza da parte delle classi di boostrap;
