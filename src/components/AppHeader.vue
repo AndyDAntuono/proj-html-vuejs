@@ -6,7 +6,9 @@
                 <div class="col-12">
                     <div class="navbar">
                         <div class="logo bg-white w-20 me-2">
-                            <img src="../assets/img/avada-marketing-logo.png" alt="avada-marketing-logo.png">
+                            <a href="#">
+                                <img src="../assets/img/avada-marketing-logo.png" alt="avada-marketing-logo.png">
+                            </a>
                         </div>
                         <div class="home">
                             <button class="dropbtn">Home 
@@ -28,15 +30,15 @@
                             <a href="#">Link 3</a>
                           </div>
                         </div> 
-                        <a href="#">Why us</a>
-                        <a href="#">Case studies</a>
-                        <a href="#">About</a>
-                        <a href="#">Blog</a>
-                        <a href="#">
+                        <a class="nav-link" href="#">Why us</a>
+                        <a class="nav-link" href="#">Case studies</a>
+                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#">Blog</a>
+                        <div>
                             <span><i class="fa-solid fa-phone me-2"></i></span>
                             <span>(555) 802-1234</span>
-                        </a>
-                        <a href="#">Free Quote</a>
+                        </div>
+                        <a class="nav-link" href="#">Free Quote</a>
                       </div>
                     <!--
                     <div class="header-navbar mb-2">
@@ -98,7 +100,7 @@
     margin: 0;
   }
   
-  .navbar a:hover, .dropdown:hover .dropbtn {
+  .navbar .nav-link:hover, .dropdown:hover .dropbtn {
     color: #f86011;
     border-bottom: 1px solid #f86011;
 
@@ -127,6 +129,10 @@
   
   .dropdown:hover .dropdown-content {
     display: block;
+  }
+
+  .fa-phone {
+    color: #f86011;
   }
 /*
     .header-navbar {
