@@ -4,68 +4,40 @@
         <div class="container">
             <div class="row">
                 <div class="col-12">
-                    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                        <div class="container-fluid">
-                          <a class="navbar-brand" href="#">
+                    <div class="navbar">
+                        <div class="logo bg-white w-20 me-2">
                             <img src="../assets/img/avada-marketing-logo.png" alt="avada-marketing-logo.png">
-                          </a>
-                          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                          </button>
-                          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                <li class="nav-item ni-hover dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        <div class="link-color">Home</div>
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li><hr class="dropdown-divider"></li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item ni-hover dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        <div class="link-color">Services</div>
-                                    </a>
-                                    <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li><hr class="dropdown-divider"></li>
-                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item ni-hover">
-                                    <a class="nav-link" href="#">
-                                        <div class="link-color">Why us</div>
-                                    </a>
-                                </li>
-                                <li class="nav-item ni-hover">
-                                    <a class="nav-link" href="#">
-                                        <div class="link-color">Case-studies</div>
-                                    </a>
-                                </li>
-                                <li class="nav-item ni-hover">
-                                    <a class="nav-link" href="#">
-                                        <div class="link-color">About</div>
-                                    </a>
-                                </li>
-                                <li class="nav-item ni-hover">
-                                    <a class="nav-link" href="#">
-                                        <div class="link-color">Blog</div>
-                                    </a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#"><i class="fa-solid fa-phone"></i>(555) 802-1234</a>
-                                </li>
-                                <li class="nav-item rounded quotes">
-                                    <a class="nav-link" href="#"><div class="quotes-link-color">Free Quotes</div></a> <!--ho dovuto inerire il testo Free Quotes dentro ad un altro div perché altrimenti non mi permetteva di colorarlo secondo il mockup, tutto ciò perché forse bootstrap mi intralciava-->
-                                </li>
-                            </ul>
                         </div>
-                    </div>
-                </nav>
+                        <div class="home">
+                            <button class="dropbtn">Home 
+                              <i class="fa fa-caret-down"></i>
+                            </button>
+                            <div class="dropdown-content">
+                              <a href="#">Link 1</a>
+                              <a href="#">Link 2</a>
+                              <a href="#">Link 3</a>
+                            </div>
+                        </div> 
+                        <div class="services">
+                          <button class="dropbtn">Services 
+                            <i class="fa fa-caret-down"></i>
+                          </button>
+                          <div class="dropdown-content">
+                            <a href="#">Link 1</a>
+                            <a href="#">Link 2</a>
+                            <a href="#">Link 3</a>
+                          </div>
+                        </div> 
+                        <a href="#">Why us</a>
+                        <a href="#">Case studies</a>
+                        <a href="#">About</a>
+                        <a href="#">Blog</a>
+                        <a href="#">
+                            <span><i class="fa-solid fa-phone me-2"></i></span>
+                            <span>(555) 802-1234</span>
+                        </a>
+                        <a href="#">Free Quote</a>
+                      </div>
                     <!--
                     <div class="header-navbar mb-2">
                         <div class="container-fluid d-flex align-items-center w-100">
@@ -89,13 +61,74 @@
                             </div>
                         </div>
                     </div>
-                -->
+                    -->
                 </div>
             </div>
         </div>
     </header>
 </template>
 <style lang="scss">
+.navbar {
+    overflow: hidden;
+    background-color: #ffffff;
+  }
+  
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    color: #f86011;
+    border-bottom: 1px solid #f86011;
+
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+/*
     .header-navbar {
         background-color: red;
     };
@@ -123,4 +156,5 @@
         color: #ffffff;
         text-decoration: none;
     };
+    */
 </style>
