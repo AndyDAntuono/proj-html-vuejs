@@ -190,7 +190,7 @@
                                 </div>
                             </div>
                             <div class="mt-5 mb-2 d-flex">
-                                <img src="../assets/img/image-4.png" alt="">
+                                <img src="../assets/img/image-5.png" alt="">
                                 <div>
                                     <p><strong>Trasparency</strong></p>
                                     <p>Curabitur ac leo nunc vestibulum</p>
@@ -240,6 +240,21 @@
                     </div>
                 </div>
             </div>
+            <!--Kate Shadler section-->
+            <div class="row">
+                <div class="col-6">
+                    <img class="lg-testimonial rounded my-5" src="../assets/img/large-testimonial-600x583.jpg" alt="">
+                </div>
+                <div class="col-6">
+                    <div class=".d-flex align-items">
+                        <p>
+                            "The team at Avada Marketing Consulant is fabolous. They helped us unlock our potential online and offline. We have experienced year to year growth due to their progressive approach."
+                        </p>
+                        <p><strong>Kate Schadler</strong></p>
+                        <p><small>Marketing Consulant - Abstract</small></p>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
 </template>
@@ -275,5 +290,8 @@
     };
     .winner-d {
         filter: hue-rotate(200deg);
-    }
+    };
+    .lg-testimonial {
+        width: 95%;
+    };
 </style>
