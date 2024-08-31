@@ -120,6 +120,93 @@
                     </div>
                 </div>
             </div>
+            <!--trusted section-->
+            <div class="row">
+                <div class="col-12">
+                    <div class="text-center my-3">
+                        <h1>
+                            Trusted by Leading Organisations
+                        </h1>
+                    </div> 
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <img src="../assets/img/case-studies-1-400x450.jpg" alt="case-studies-1-400x450.jpg">
+                    <h2 class="my-2">How Spaces attracted five million visitors by improving the content</h2>
+                    <h1 class="mt-2">200%</h1>
+                    <p>Higher revenue from digital</p>
+                </div>
+                <div class="col-4">
+                    <img src="../assets/img/case-studies-4-400x450.jpg" alt="case-studies-4-400x450.jpg">
+                    <h2 class="my-2">Creativity helped hemisferio to increase thei brand reach vertically</h2>
+                    <h1 class="mt-2">10x</h1>
+                    <p>Sales increase with the same ad spend</p>
+                </div>
+                <div class="col-4">
+                    <img src="../assets/img/case-studies-6-400x450.jpg" alt="case-studies-6-400x450.jpg">
+                    <h2 class="my-2">How DigitalBox used AI-powered data insight to boost sales</h2>
+                    <h1 class="mt-2">3-year</h1>
+                    <p>partnership with Avada Consultant</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="orange-button rounded text-center w-25 my-5 py-2 m-auto">Read More Case Studies</div>
+                </div>
+            </div>
+            <!--boost our clients-->
+            <div class="gray-section py-5">
+                <div class="row">
+                    <div class="col-6">
+                        <h1>
+                            We Boost Our Clients' Bottom Line by Optimizing Their Growth Potential.
+                        </h1>
+                        <p>
+                            Quisque aliquet, libero consequat elementum convallis, erat risus imperdiet pellensque sem neque eget.
+                        </p>
+                        <div class="orange-button rounded text-center w-25 my-2 py-2">Get a Consultation</div>
+                    </div>
+                    <div class="col-6">
+                        <img class="ms-4" src="../assets/img/we-boost-our-clients-600x549.jpg" alt="">
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="mt-5 mb-3">
+                                <h3>We Build Relationships</h3>
+                                <p class="my-2">Curabitur ac leo nunc. Vestibulum et mauris vel ante finibus maximus nec ut leo. Integer conectetur.</p>
+                            </div>
+                            <div class="mt-5 mb-3">
+                                <h3>Proprietary Process</h3>
+                                <p class="my-2">Curabitur ac leo nunc. Vestibulum et mauris vel ante finibus maximus nec ut leo. Integer conectetur.</p>
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="mt-5 mb-2 d-flex">
+                                <img src="../assets/img/image-4.png" alt="">
+                                <div>
+                                    <p><strong>Accountability</strong></p>
+                                    <p>Curabitur ac leo nunc vestibulum.</p>
+                                </div>
+                            </div>
+                            <div class="mt-5 mb-2 d-flex">
+                                <img src="../assets/img/image-4.png" alt="">
+                                <div>
+                                    <p><strong>Trasparency</strong></p>
+                                    <p>Curabitur ac leo nunc vestibulum</p>
+                                </div>
+                            </div>
+                            <div class="mt-5 mb-2 d-flex">
+                                <img src="../assets/img/image-6.png" alt="">
+                                <div>
+                                    <p><strong>Investment</strong></p>
+                                    <p>Curabitur ac leo nunc vestibulum</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
 </template>
@@ -135,5 +222,8 @@
         height: 30px;
         display: flex;
         align-items: center;
+    }
+    .gray-section {
+        background-color: rgb(243, 243, 243);
     }
 </style>
