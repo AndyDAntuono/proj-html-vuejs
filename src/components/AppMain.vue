@@ -246,13 +246,36 @@
                     <img class="lg-testimonial rounded my-5" src="../assets/img/large-testimonial-600x583.jpg" alt="">
                 </div>
                 <div class="col-6">
-                    <div class=".d-flex align-items">
+                    <div class="testimonial-declaration">
                         <p>
                             "The team at Avada Marketing Consulant is fabolous. They helped us unlock our potential online and offline. We have experienced year to year growth due to their progressive approach."
                         </p>
                         <p><strong>Kate Schadler</strong></p>
                         <p><small>Marketing Consulant - Abstract</small></p>
                     </div>
+                </div>
+            </div>
+            <!--marketing resources section-->
+            <div class="row">
+                <div class="col-8">
+                    <h1>Marketing Resources:<br> Insider Advice on How to<br> Increase Online Sales</h1>
+                </div>
+                <div class="col-4">
+                    <div class="orange-button rounded text-center orange-btn-margin">Explore All Resources</div>
+                </div>
+            </div>
+            <div class="row mb-5">
+                <div class="col-4">
+                    <img src="../assets/img/blog-posts-6-400x267.jpg" alt="">
+                    <h2>Marketing Tips And Tricks For Your Website</h2>
+                </div>
+                <div class="col-4">
+                    <img src="../assets/img/blog-posts-5-400x267.jpg" alt="">
+                    <h2>How to Write Stunning Blog Post Titles</h2>
+                </div>
+                <div class="col-4">
+                    <img src="../assets/img/blog-posts-4-400x267.jpg" alt="">
+                    <h2>Techniques to Reduce Facebook Ads Spend</h2>
                 </div>
             </div>
         </div>
@@ -294,4 +317,10 @@
     .lg-testimonial {
         width: 95%;
     };
+    .testimonial-declaration {
+        margin-top: 275px;
+    };
+    .orange-btn-margin {
+        margin-top: 100px;
+    }
 </style>
