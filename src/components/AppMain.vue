@@ -5,7 +5,7 @@
         <div class="container">
             <!--unlock potential section-->
             <div class="row">
-                <div class="unlock-potential d-flex"> <!--volevo inserire l'immagine di sfondo di questa sezione ma manca l'immagine-->
+                <div class="unlock-potential mb-5 d-flex bg-marketing-intro"> <!--volevo inserire l'immagine di sfondo di questa sezione ma manca l'immagine-->
                     <div class="w-50">
                         <h1>Unlock Your Online<br> Growth Potential</h1>
                         <p>
@@ -14,7 +14,7 @@
                         <div class="our-services">Our Services <i class="fa-solid fa-arrow-right"></i></div>
                     </div>
                     <div class="w-50">
-                        <div class="card d-flex justify-content-center text-center">
+                        <div class="w-card card d-flex justify-content-center text-center">
                             <div class="rounded-circle my-2">
                                 <img class="rounded-circle" src="../assets/img/marketing-consultant-expert.jpg" alt="">
                             </div>
@@ -205,12 +205,53 @@
                             </div>
                         </div>
                     </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <h3 class="m-5 text-center">
+                                Awards
+                            </h3>
+                            <div class="d-flex justify-content-between">
+                                <div>
+                                    <img class="winner-a" src="../assets/img/award-a-200x191.png" alt="">
+                                    <p class="text-center">
+                                        Winner Seo Master MAGT<br>Smart Start Award 2017
+                                    </p>
+                                </div>
+                                <div>
+                                    <img class="winner-b" src="../assets/img/award-b-200x191.png" alt="">
+                                    <p class="text-center">
+                                        Top Social Media Agencies<br>Next Partner 2018
+                                    </p>
+                                </div>
+                                <div>
+                                    <img class="winner-c" src="../assets/img/award-c-200x191.png" alt="">
+                                    <p class="text-center">
+                                        10 Fastest Growing Abstract<br>Solution Providers 2019
+                                    </p>
+                                </div>
+                                <div>
+                                    <img class="winner-d" src="../assets/img/award-d-200x191.png" alt="">
+                                    <p class="text-center">
+                                        National Excellence Agencie<br>Award Winner 2020
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </main>
 </template>
 <style lang="scss">
+    .bg-marketing-intro {
+        background-image: url(../assets/img/marketing-intro.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    };
+    .w-card {
+        width: 70%;
+    }
     .orange-button {
         background-color: #f86011;
         color: #ffffff;
@@ -222,8 +263,17 @@
         height: 30px;
         display: flex;
         align-items: center;
-    }
+    };
     .gray-section {
         background-color: rgb(243, 243, 243);
+    };
+    .winner-a {
+        filter: invert(100%);
+    };
+    .winner-c {
+        filter: hue-rotate(340deg);
+    };
+    .winner-d {
+        filter: hue-rotate(200deg);
     }
 </style>
