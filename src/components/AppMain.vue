@@ -5,13 +5,13 @@
         <div class="container">
             <!--unlock potential section-->
             <div class="row">
-                <div class="unlock-potential mb-5 d-flex bg-marketing-intro"> <!--volevo inserire l'immagine di sfondo di questa sezione ma manca l'immagine-->
+                <div class="unlock-potential text-white py-5 mb-5 d-flex bg-marketing-intro"> <!--volevo inserire l'immagine di sfondo di questa sezione ma manca l'immagine-->
                     <div class="w-50">
                         <h1>Unlock Your Online<br> Growth Potential</h1>
                         <p>
                             Online marketing to secure customer retention,<br> leads, and sales. We focus on the bigger picture.
                         </p>
-                        <div class="our-services">Our Services <i class="fa-solid fa-arrow-right"></i></div>
+                        <div class="rounded bg-white text-black w-25 text-center">Our Services <i class="fa-solid fa-arrow-right"></i></div>
                     </div>
                     <div class="w-50">
                         <div class="w-card card d-flex justify-content-center text-center">
@@ -321,7 +321,7 @@
     .bg-marketing-intro {
         background-image: url(../assets/img/marketing-intro.jpg);
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: 112%;
     };
     .w-card {
         width: 70%;
