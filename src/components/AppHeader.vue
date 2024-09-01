@@ -10,26 +10,32 @@
                                 <img src="../assets/img/avada-marketing-logo.png" alt="avada-marketing-logo.png">
                             </a>
                         </div>
-                        <div class="home">
-                            <button class="dropbtn">Home 
-                              <i class="fa fa-caret-down"></i>
-                            </button>
-                            <div class="dropdown-content">
-                              <a href="#">Link 1</a>
-                              <a href="#">Link 2</a>
-                              <a href="#">Link 3</a>
-                            </div>
-                        </div> 
-                        <div class="services">
-                          <button class="dropbtn">Services 
-                            <i class="fa fa-caret-down"></i>
-                          </button>
-                          <div class="dropdown-content">
-                            <a href="#">Link 1</a>
-                            <a href="#">Link 2</a>
-                            <a href="#">Link 3</a>
-                          </div>
-                        </div> 
+                        <div class="nav-item">
+                          <a class="nav-link" href="#">Home <i class="fa-solid fa-chevron-down"></i></a>
+                        </div>
+                        <div class="nav-item">
+                          <a class="nav-link" href="#">Services <i class="fa-solid fa-chevron-down"></i></a>
+                        </div>
+                        <div class="nav-item">
+                          <a class="nav-link" href="#">Why us</a>
+                        </div>
+                        <div class="nav-item">
+                          <a class="nav-link" href="#">Case studies</a>
+                        </div>
+                        <div class="nav-item">
+                          <a class="nav-link" href="#">Blog</a>
+                        </div>
+                        <div>
+                          <span><i class="fa-solid fa-phone me-2"></i></span>
+                          <span>(555) 802-1234</span>
+                        </div>
+                        <div class="quotes rounded nav-item">
+                          <a class="nav-link" href="#">Free Quote</a>
+                        </div>
+
+                        <!--
+                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link" href="#">Services</a>
                         <a class="nav-link" href="#">Why us</a>
                         <a class="nav-link" href="#">Case studies</a>
                         <a class="nav-link" href="#">About</a>
@@ -39,6 +45,7 @@
                             <span>(555) 802-1234</span>
                         </div>
                         <a class="quotes rounded" href="#">Free Quote</a>
+                        -->
                       </div>
                     <!--
                     <div class="header-navbar mb-2">
@@ -74,75 +81,32 @@
         overflow: hidden;
         background-color: #ffffff;
     }
-    
-    .navbar a {
-      float: left;
-      font-size: 16px;
-      color: rgb(0, 0, 0);
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-    }
 
-    .dropdown {
-      float: left;
-      overflow: hidden;
-    }
-
-    .dropdown .dropbtn {
-      font-size: 16px;  
-      border: none;
-      outline: none;
-      color: rgb(0, 0, 0);
-      padding: 14px 16px;
-      background-color: inherit;
-      font-family: inherit;
-      margin: 0;
-    }
-
-    .navbar .nav-link:hover, .dropdown:hover .dropbtn {
+    .navbar .nav-link:hover {
       color: #f86011;
       border-bottom: 1px solid #f86011;
     }
 
-    .dropdown-content {
-      display: none;
-      position: absolute;
-      background-color: #ffffff;
-      min-width: 160px;
-      z-index: 1;
-    }
-
-    .dropdown-content a {
-      float: none;
-      color: black;
-      padding: 12px 16px;
-      text-decoration: none;
-      display: block;
-      text-align: left;
-    }
-
-    .dropdown-content a:hover {
-      background-color: #ddd;
-    }
-
-    .dropdown:hover .dropdown-content {
-      display: block;
-    }
     .fa-phone {
       color: #f86011;
     }
 
-    .quotes:link {
+    .quotes {
         background-color: #f8ac83;
         color: #f86011;
+        padding: 1px;
+        width: 100px;
+        text-align: center;
      }
 
     .quotes:hover {
         background-color: #f86011;
-        color: #ffffff;
+    };
+    .quotes:hover .nav-link {
+      color: #ffffff;
     }
-/*
+    
+    /*
     .header-navbar {
         background-color: red;
     };
