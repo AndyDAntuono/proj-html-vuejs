@@ -278,6 +278,42 @@
                     <h2>Techniques to Reduce Facebook Ads Spend</h2>
                 </div>
             </div>
+            <!--make things happen section-->
+            <div class="row py-5 bg-dark">
+                <div class="w-50 bg-dark text-white">
+                    <h1>Let's Make Things Happen</h1>
+                    <p>
+                        Curabitur ac leo munc Vestibulum er mauris vel ant finibus maximus nec et leo. Integer consectetur.
+                    </p>
+                    <hr class="w-25 my-3">
+                    <p class="mb-3"><em>"The team ad Avada Marketing Consulant is fabulous. They helped us unlock our potential online and offline. We have experienced year on year growth to their progressive approach."</em></p>
+                    <p><strong>George Anderson</strong></p>
+                    <p><small>DigitalBox CEO</small></p>
+                </div>
+                <div class="w-50">
+                    <div class="w-card card d-flex justify-content-center text-center">
+                        <div class="rounded-circle my-2">
+                            <img class="rounded-circle" src="../assets/img/marketing-consultant-expert.jpg" alt="">
+                        </div>
+                        <h3>Richard Madsen</h3>
+                        <p>Marketing Consultant Expert</p>
+                        <div>
+                            <span><i class="fa-solid fa-phone me-2"></i></span>
+                            <span>(555) 802-1234</span>
+                        </div>
+                        <div class="my-2">
+                            <input class="w-75" type="text" placeholder="Your Name*">
+                        </div>
+                        <div class="my-2">
+                            <input class="w-75" type="text" placeholder="Your Email*">
+                        </div>
+                        <div class="my-2">
+                            <input class="w-75" type="text" placeholder="Your Phone Number*">
+                        </div>
+                        <div class="orange-button m-auto rounded w-75 text-center my-2 py-2">Get a Callback</div>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
 </template>
