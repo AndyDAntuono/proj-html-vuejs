@@ -3,7 +3,7 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="footer-navbar d-flex">
+                <div class="footer-navbar d-flex mt-5">
                     <div class="fn-left">
                         <h2>Grow Your Online Business<br> Strategically, and Improve<br> Customer Retention.</h2>
                         <div class="mt-3">
@@ -53,12 +53,10 @@
 </template>
 <style lang="scss">
     .footer-navbar {
-        background-color: yellow;
         width: 100%;
     };
     .fn-left {
         width: 45%;
-        background-color: pink;
         margin-right: 10px;
     };
     .fn-left p {
@@ -66,7 +64,6 @@
     };
     .fn-right-l, .fn-right-c, .fn-right-r {
         width: calc(55% / 3);
-        background-color: rgb(255, 33, 70);
         margin-right: 10px;
     };
     .fn-right-l p{
