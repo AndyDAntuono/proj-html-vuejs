@@ -73,12 +73,13 @@ export default {
               label: 'Contact Us',
               url: '#',
               current: false
+              /*11*/
             },
             {
               label: 'Careers',
               url: '#',
               current: false
-              /*11*/
+              /*12*/
             }
           ]
         }
@@ -93,19 +94,19 @@ export default {
                     <div class="fn-left">
                         <h2>Grow Your Online Business<br> Strategically, and Improve<br> Customer Retention.</h2>
                         <div class="mt-3">
-                            <span class="me-3"><i class="fa-brands fa-facebook-f"></i></span>
-                            <span class="me-3"><i class="fa-brands fa-twitter"></i></span>
-                            <span class="me-3"><i class="fa-brands fa-instagram"></i></span>
-                            <span class="me-3"><i class="fa-brands fa-youtube"></i></span>
-                            <span class="me-3"><i class="fa-brands fa-linkedin-in"></i></span>
-                            <span class="me-3"><i class="fa-brands fa-tiktok"></i></span>
+                            <span class="me-3"><a class="footer-icon" href=""><i class="fa-brands fa-facebook-f"></i></a></span>
+                            <span class="me-3"><a class="footer-icon" href=""><i class="fa-brands fa-twitter"></i></a></span>
+                            <span class="me-3"><a class="footer-icon" href=""><i class="fa-brands fa-instagram"></i></a></span>
+                            <span class="me-3"><a class="footer-icon" href=""><i class="fa-brands fa-youtube"></i></a></span>
+                            <span class="me-3"><a class="footer-icon" href=""><i class="fa-brands fa-linkedin-in"></i></a></span>
+                            <span class="me-3"><a class="footer-icon" href=""><i class="fa-brands fa-tiktok"></i></a></span>
                         </div>
                         <p>&copy; 2020 &#8226; Avada Consulant &#8226; Powered by WordPress</p>
                     </div>
                     <div class="fn-right-l">
                         <h5 class="mb-3">Services</h5>
                         <ul class="list-unstyled">
-                            <li v-for="link, index in links.slice(0, 3)" :key="index" :class="['mb-3', link.current ? 'active' : '']">
+                            <li v-for="link, index in links.slice(0, 6)" :key="index" :class="['mb-3', link.current ? 'active' : '']">
                                 <a :href="link.url">{{ link.label }}</a>
                             </li>
                             <!--
@@ -117,23 +118,33 @@ export default {
                             <li class="mb-3">Case Studies</li>
                             -->
                         </ul>
-                        <p>Call Us (555) 802-1234</p>
+                        <p class="mt-5">Call Us (555) 802-1234</p>
                     </div>
                     <div class="fn-right-c">
                         <h5 class="mb-3">Resources</h5>
                         <ul class="list-unstyled">
+                            <li v-for="link, index in links.slice(6, 10)" :key="index" :class="['mb-3', link.current ? 'active' : '']">
+                                <a :href="link.url">{{ link.label }}</a>
+                            </li>
+                            <!--
                             <li class="mb-3">Learning Center</li>
                             <li class="mb-3">Video Turorials</li>
                             <li class="mb-3">Customers</li>
                             <li class="mb-3">Blog</li>
+                            -->
                         </ul>
                     </div>
                     <div class="fn-right-r">
                         <h5 class="mb-3">Company</h5>
                         <ul class="list-unstyled">
+                            <li v-for="link, index in links.slice(10)" :key="index" :class="['mb-3', link.current ? 'active' : '']">
+                                <a :href="link.url">{{ link.label }}</a>
+                            </li>
+                            <!--
                             <li class="mb-3">Who We Are</li>
                             <li class="mb-3">Contact Us</li>
                             <li class="mb-3">Careers</li>
+                        -->
                         </ul>
                         <p>info@yourcompany.com</p>
                     </div>
@@ -145,6 +156,9 @@ export default {
 <style lang="scss">
     .footer-navbar {
         width: 100%;
+    };
+    .footer-icon {
+        color: #000000,
     };
     .fn-left {
         width: 45%;
@@ -167,9 +181,10 @@ export default {
         color: #000000;
         text-decoration: none;
     }
+    /*la seguente classe l'ho realizzata basandomi all'effetto applicato sul sito originale, Avada Consulant*/
     ul a:hover {
         color: #f86011;
         border-right: 1px solid #f86011;
-        padding-right: 100px;
+        padding-right: 75px;
     }
 </style>
