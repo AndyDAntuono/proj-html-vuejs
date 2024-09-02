@@ -11,10 +11,10 @@
                         <p>
                             Online marketing to secure customer retention,<br> leads, and sales. We focus on the bigger picture.
                         </p>
-                        <div class="rounded bg-white text-black w-25 text-center">Our Services <i class="fa-solid fa-arrow-right"></i></div>
+                        <div class="our-services rounded w-25 text-center">Our Services <i class="fa-solid fa-arrow-right"></i></div>
                     </div>
                     <div class="w-50">
-                        <div class="w-card card d-flex justify-content-center text-center">
+                        <div class="w-card card d-flex justify-content-center text-center shadow">
                             <div class="rounded-circle my-2">
                                 <img class="rounded-circle" src="../assets/img/marketing-consultant-expert.jpg" alt="">
                             </div>
@@ -103,7 +103,7 @@
             <!--Sandy Reiff section-->
             <div class="row">
                 <div class="col-12">
-                    <div class="rounded d-flex justify-content-around">
+                    <div class="rounded d-flex justify-content-around shadow my-5">
                         <div class="d-flex justify-content-around">
                             <div class="me-1">
                                 <img class="rounded-circle w-50" src="../assets/img/marketing-expert-cta.png" alt="">
@@ -132,7 +132,9 @@
             </div>
             <div class="row">
                 <div class="col-4">
-                    <img src="../assets/img/case-studies-1-400x450.jpg" alt="case-studies-1-400x450.jpg">
+                    <div class="color-gradient">
+                        <img src="../assets/img/case-studies-1-400x450.jpg" alt="case-studies-1-400x450.jpg">
+                    </div>
                     <h2 class="my-2">How Spaces attracted five million visitors by improving the content</h2>
                     <h1 class="mt-2">200%</h1>
                     <p>Higher revenue from digital</p>
@@ -256,7 +258,7 @@
                 </div>
             </div>
             <!--marketing resources section-->
-            <div class="row">
+            <div class="row mb-5">
                 <div class="col-8">
                     <h1>Marketing Resources:<br> Insider Advice on How to<br> Increase Online Sales</h1>
                 </div>
@@ -266,7 +268,9 @@
             </div>
             <div class="row mb-5">
                 <div class="col-4">
-                    <img src="../assets/img/blog-posts-6-400x267.jpg" alt="">
+                    <div class="color-gradient">
+                        <img src="../assets/img/blog-posts-6-400x267.jpg" alt="">
+                    </div>
                     <h2>Marketing Tips And Tricks For Your Website</h2>
                 </div>
                 <div class="col-4">
@@ -323,12 +327,25 @@
         background-repeat: no-repeat;
         background-size: 112%;
     };
+    .our-services {
+        color: black;
+        background-color: white;
+        border: black;
+    };
+    .our-services:hover {
+        background-color: transparent;
+        border: 1px solid #ffffff;
+        color: #ffffff;
+    };
     .w-card {
         width: 70%;
     }
     .orange-button {
         background-color: #f86011;
         color: #ffffff;
+    };
+    .orange-button:hover {
+        background-color: #d45410;
     };
     .sandy-phone {
         background-color: #f8ac83;
@@ -338,6 +355,33 @@
         display: flex;
         align-items: center;
     };
+
+    .color-gradient {
+        position: relative;
+        display: inline-block;
+      }
+      
+      .color-gradient img {
+        display: block;
+        width: 100%;
+        height: auto;
+      }
+      
+      .color-gradient::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(to top, rgba(255, 165, 0, 0.8), rgba(255, 165, 0, 0) 70%);
+        opacity: 0;
+      }
+      
+      .color-gradient:hover::after {
+        opacity: 1;
+      }
+    
     .gray-section {
         background-color: rgb(243, 243, 243);
     };
