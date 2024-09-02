@@ -75,3 +75,4 @@ Presentazione dei progetti
 - procedo ad impaginare AppFooter.vue:
     - dal momento che in AppHeader non sono attualmente soddisfatto dell'impaginazione, in AppFooter voglio impostare delle classi css personalizzaten nel tentativo di ottenere un risultato estetico migliore;
 - procedo con l'impaginazione di AppMain.vue;
+- procedo col popolare dinamicamente AppHeader e AppFooter tramite props;
